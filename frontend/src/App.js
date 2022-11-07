@@ -5,7 +5,7 @@ import BookPage from "./components/BookPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path="/" element={<Books />} />
         <Route exact path="/book/:id" element={<BookPage />} />
