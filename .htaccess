@@ -15,7 +15,7 @@ RewriteCond %{HTTP:Authorization} ^(.*)
 RewriteRule ^(.*) - [E=HTTP_AUTHORIZATION:%1]
 SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
 
-Permissions-Policy: fullscreen=(self "https://example.com" "https://another.example.com"),
+Permissions-Policy: fullscreen=(self "https://manuelmarkdenver.github.io/react-wordpress"),
     geolocation=*, camera=()
 
 </IfModule>

@@ -5,12 +5,12 @@ import BookPage from "./components/BookPage";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Books />} />
         <Route exact path="/book/:id" element={<BookPage />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
