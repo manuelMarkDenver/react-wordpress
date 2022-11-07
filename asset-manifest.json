@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-wordpress/static/css/main.abd64e84.css",
-    "main.js": "/react-wordpress/static/js/main.d05b75ad.js",
+    "main.js": "/react-wordpress/static/js/main.b6c2c040.js",
     "index.html": "/react-wordpress/index.html",
     "main.abd64e84.css.map": "/react-wordpress/static/css/main.abd64e84.css.map",
-    "main.d05b75ad.js.map": "/react-wordpress/static/js/main.d05b75ad.js.map"
+    "main.b6c2c040.js.map": "/react-wordpress/static/js/main.b6c2c040.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.d05b75ad.js"
+    "static/js/main.b6c2c040.js"
   ]
 }
